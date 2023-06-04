@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <style>
+        form {
+            height: fit-content;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        #movie-gallery {
+            height: 100vh;
+            position: relative;
+            top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">JQuery Exercises</a>
+    </nav>
+    <form>
+        <input type="text" placeholder="Title" id="Input-title">
+        <input type="text" placeholder="Rating" id="Input-rating">
+        <input type="submit" id="Input-submit">
+    </form>
+
+    <button id="Sort-alphabetically">Sort Alphabetically</button>
+    <button id="Sort-rating">Sort By Rating</button>
+
+    <section id="movie-gallery"></section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="movie.js"></script>
+</body>
+</html>
